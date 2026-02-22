@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: black;
     color: white;
     line-height: 1.5;
 }
@@ -15,11 +15,10 @@ body {
 .all-content {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-    padding: 4rem 4rem;
+    gap: 1.5rem;
+    padding: 7rem 7rem;
     align-items: center;
-    margin-bottom: 3rem;
-    min-height: 100vh,
+    min-height: 100vh;
 }
 
 .abt-me {
@@ -52,7 +51,7 @@ body {
 }
 
 .gen-btn {
-    background-color: #000;
+    background-color:black;
     color: white;
     border-color: white;
     border-radius: 20px;
@@ -66,15 +65,6 @@ body {
     letter-spacing: 1px;
     position: relative;
 }
-
-.gen-btn :hover{
-    transform: translateY(-3px);
-}
-
-.gen-btn :active{
-    transform: translateY(-2px);
-}
-
 
 .gen-content {
     display: flex;
@@ -95,7 +85,7 @@ body {
 .color-gen  {
     width: 160px;
     height: 80px;
-    background: #000;
+    background: black;
     border-radius: 20%;
     border: 3px groove white;
     flex-shrink: 0;
@@ -107,7 +97,7 @@ body {
     font-weight: 600;
     font-size: 1.5rem;
     color: white;
-    background-color: #000; 
+    background-color: black; 
     border: 3px groove white;
     border-radius: 20px;
     border-radius: 20%;
@@ -118,3 +108,14 @@ body {
     min-width: 160px;
     min-height: 80px;
 }
+
+
+.color-name {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    min-height: 1.5rem;
+    min-width: 160px;
+}
+

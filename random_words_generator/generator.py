@@ -1,5 +1,4 @@
 #ccode for approx  4000 words words
-
 import random
 import urllib.request
 import ssl
@@ -17,7 +16,7 @@ def get_words():
 all_words = random.choices(get_words(), k=4000)
 print("Generated " + str(len(all_words)) + " words!\n")
 
-# splitted the output into parts because VS code can't process such long lines
+# splitted the output into parts because VS code wasn't able to process such long lines
 size = 1000
 part1 = all_words[0:size]
 part2 = all_words[size:size*2] 
